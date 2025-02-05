@@ -1,7 +1,8 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://127.0.0.1:8000/api/",
+  // baseURL: "http://127.0.0.1:8000/api/",
+  baseURL: "http:ec2-3-145-108-221.us-east-2.compute.amazonaws.com/api/",
 });
 
 export const userConfirmation = async () => {
